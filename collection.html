@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <title>Document</title>
+
+ 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Gabarito:wght@400..900&family=Glory:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+
+
+
+</head>
+  
+
+<body>
+
+
+
+ <!-- top add -->
+   <div id="addbox"  class="bg-black text-white flex p-1 gap-2 justify-center font-serif ">
+    <h2>Sign Up and </h2>
+    <h2 class="font-bold"> GET 20% OFF</h2>
+    <h2>for your first Order</h2>
+    <h2 id="addclose"    class="w-6 ml-20 cursor-pointer "><svg xmlns="http://www.w3.org/2000/svg "  fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" >
+  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+</svg>
+</h2>
+</div>
+
+
+
+
+
+<!--header  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="tex" class="flex justify-between bg-pink-50  ">
+     
+
+    <h1 id="texx"  class="font-bold text-3xl p-2 ml-2 cursor-pointer ">TeXas   </h1>
+    <!-- <input  type="text " class=" border border-gray-900 w-40 h-6 m-5 rounded-md md:hidden mt-5">
+                   -->
+
+
+<div id="header" class=" flex  gap-8  p-2 cursor-pointer justify-between ml-5 mt-2  border-gray-300  bg-pink-50 text-gray-500 mt-1 mb-2 space-x-4 px-8  bg-pink-50">
+        <p class="hidden hover:text-black md:block"><a href="index.html">Home</a></p>
+
+        <P class="hidden md:block  hover:text-black">Collections</P>
+        <p class="hidden md:block  hover:text-black"><a href="contact.html">Contacts</a></p>
+    </div>
+
+<p id="menu" class=" md:hidden cursor-pointer">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-8 h-7 mr- m-2  ">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+
+
+</svg>
+</p>
+
+</div>
+
+
+<!-- side navbar -->
+  
+
+
+
+
+<div id="sidenav" class="  md:hidden fixed z-20 top-0 bg-purple-100 text-center transition-all duration-1000" style="width: 50%; height: 100vh; right: -50%;">
+
+  <div class="justify-end cursor-pointer">
+    <button id="close" class="w-10 hover:bg-white">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
+
+  <div class="cursor-pointer pt-20 text-gray-700">
+    <p class="hover:bg-white hover:text-black p-5 m-5"><a href="index.html">Home</a></p>
+ 
+    <p class="hover:bg-white hover:text-black p-5 m-5"><a href="collection.html">Collection</a></p>
+    <p class="hover:bg-white hover:text-black p-5 m-5"><a href="contact.html">Contacts</a></p>
+  </div>
+
+  <hr>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 class="font-bold p-2 m-2 text-center">Search Our style </h1>
+<input     id="search"      class=" md:ml-80 ml-20 p-2  border mb-2 border-gray-500" type="text" style="width: 60%;"> 
+
+
+
+
+
+
+<div class="flex p-2"  >
+
+
+
+<div    class="border-r border-gray-500 pr-4 h-full" >
+
+<h1 class="font-bold text-2xl p-2 m-3">Occasion</h1>
+    <input class=" ml-10 "    id="new Collection"  type="checkbox">Summer <br>
+<input class=" ml-10 "    id="new Collection"  type="checkbox">Party <br>
+<input class=" ml-10 "    id="new Collection"  type="checkbox">Beach
+
+<h1 class="font-bold text-2xl p-2 m-3">Colors</h1>
+    <input class=" ml-10 "    id="new Collection"  type="checkbox">Red <br>
+<input class=" ml-10 "    id="new Collection"  type="checkbox">Green <br>
+<input class=" ml-10 "    id="new Collection"  type="checkbox">White
+
+
+
+<h1 class="font-bold text-2xl p-2 m-3"> Arrival</h1>
+    <input          class=" ml-10 "    id="new Collection"  type="checkbox">New  <br>
+<input class=" ml-10 "    id="new Collection"  type="checkbox">Old <br>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<div    class="  md:flex flex-wrap m-7 font-bold "    id="dressbox">
+
+  <div class="p-2 md:p-4 text-center">
+ <img src="dress 1.png " width="200px">
+<h1>White t-shirt</h1>
+
+  </div>
+
+
+
+<div   class="p-2 md:p-4 text-center">
+ <img src="dress 2.png" width="200px" style="height: 220px;">
+<h1>Thala Hukkum</h1>
+
+
+  </div>
+
+
+
+
+<div class="p-2 md:p-4 text-center">
+ <img src="dress 3.jpg" width="200px" style="height: 220px;">
+
+<h1>Printed shirt</h1>
+  </div>
+
+
+
+
+
+<div class="p-2 md:p-4 text-center">
+ <img src="dress 4.jpg" width="200px" style="height: 220px;"  >
+<h1>White printed</h1>
+
+  </div>
+
+
+
+
+
+<div class="p-2 md:p-4 text-center">
+ <img src="dress 6.png" width="200px" style="height: 220px;"  >
+
+<h1>White shangai</h1>
+  </div>
+
+
+
+
+<div class="p-2 md:p-4 text-center">
+ <img src="dress7.png" width="200px" style="height: 220px;"  >
+<h1>Itachi Uchiya </h1>
+
+  </div>
+
+
+
+
+<div class="p-2 md:p-4 text-center">
+ <img src="dress 8.png" width="200px" style="height: 220px;"  > 
+<h1>DHONI</h1>
+
+  </div>
+
+<div class="p-2 md:p-4 text-center">
+ <img src="dress10.jpg" width="200px" style="height: 220px;"  >
+<h1>Wolf t-shirt </h1>
+
+  </div>
+
+
+
+
+
+
+<div class="p-2 md:p-4 text-center">
+ <img src="dress 12.jpg" width="200px" style="height: 220px;"  > 
+<h1>Beach styles</h1>
+
+  </div>
+
+
+
+
+
+
+
+
+
+<div class="p-2 md:p-4 text-center">
+ <img src="dress 13.png" width="200px" style="height: 220px;"  > 
+<h1>beach style</h1>
+
+  </div>
+
+
+
+
+
+<div class="p-2 md:p-4 text-center">
+ <img src="dress 14.jpg" width="200px" style="height: 220px;"  > 
+<h1>beach </h1>
+
+  </div>
+
+
+
+
+
+<div class="p-2 md:p-4 text-center">
+ <img src="dress 15.png" width="200px" style="height: 220px;"  > 
+<h1>printed  </h1>
+
+  </div>
+
+<div class="p-2 md:p-4 text-center">
+ <img src="dress 17.jpg" width="200px" style="height: 220px;"  > 
+<h1>printed checked </h1>
+
+  </div>
+  
+<div class="p-2 md:p-4 text-center">
+ <img src="jact2.jpg" width="200px" style="height: 220px;"  > 
+<h1> ARMY  </h1>
+
+  </div>
+
+
+<div class="p-2 md:p-4 text-center">
+ <img src="hoody 1.png" width="200px" style="height: 220px;"  > 
+<h1> hoody  </h1>
+
+  </div>
+
+
+<div class="p-2 md:p-4 text-center">
+ <img src="hoody 2.png" width="200px" style="height: 220px;"  > 
+<h1> hoody 2 </h1>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer -->
+
+
+<div class="p-5 bg-gray-900 m-20">
+
+<h1 class="p-3 text-3xl font-bold text-gray-500">TeXas</h1> 
+<p class="p-3 text-1xl text-white ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, quibusdam. Voluptate culpa adipisci minus nostrum! Aperiam non ratione esse quae. Alias, placeat consectetur  ab repudiandae iusto cupiditate eius optio eaque? Dolores sunt ad officiis expedita unde?</p>
+
+<p class="p-3 text-white" > @texas.com</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+
+
+
+  const sidenav = document.getElementById("sidenav");
+  const openBtn = document.getElementById("menu");
+  const closeBtn = document.getElementById("close");
+
+  openBtn.addEventListener("click", () => {
+    sidenav.style.right = "0"; // Slide in
+  });
+
+  closeBtn.addEventListener("click", () => {
+    sidenav.style.right = "-50%"; // Slide out
+  });
+
+
+
+
+
+var addbox =document.getElementById("addbox");
+var addclose =document.getElementById("addclose");
+addclose.addEventListener("click",function(){
+
+     addbox.style.display="none";
+console.log("close")
+
+
+})
+
+
+
+
+
+
+
+
+
+// search function 
+
+ var search = document.getElementById("search");
+ var container=document.getElementById("dressbox");
+ var productlist=container.querySelectorAll("div");
+
+ search.addEventListener("keyup",function(event){
+  var entervalue = event.target.value.toUpperCase()
+ 
+
+
+  for( var count=0;count<productlist.length;count=count+1)
+      {
+
+             var productname =productlist[count].querySelector("h1").textContent
+          if(productname.toUpperCase().indexOf(entervalue)<0)
+          {
+            productlist[count].style.display="none";
+
+          }
+          else{
+
+            productlist[count].style.display= "block";
+          }
+
+
+
+      }
+        
+
+
+
+
+
+
+
+ })
+
+
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>

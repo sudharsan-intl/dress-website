@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0%;
+   font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+
+#tex{
+    box-shadow:1px 1px 10px 0px ;
+    
+
+}
+
+#menu{
+     position: relative;
+     
+     margin-right: ;
+   
+
+
+}
+#texx{
+ 
+color: rgb(115, 118, 121);
+
+
+
+}
+
+#imgcontainer{
+
+display: flex;
+overflow-x: hidden;
+overflow-y: hidden;
+position:absolute;
+border-radius: 5px;
+box-shadow:1px 2px 10px 1px ;
+z-index: 10;
+}
+#arrow{
+
+position: relative;
+margin-top: 200px;
+color: rgb(252, 252, 252);
+cursor: pointer;
+z-index:15 ;
+margin-top: 90px;
+}
+
+#arrowkey{
+  
+    color: rgb(255, 255, 255);
+    z-index: 20;
+}
+
+#dbtn{
+
+position: relative;
+bottom: 50px;
+  background-color: aliceblue; color: black;
+   margin-left: 50px
+    
+}
+
+#dresscontainer{
+
+ 
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-bottom: 0%;
+}
+#arrowkeydress{
+
+
+}
+    
+
+#dresscontainer{
+
+box-shadow: 0px 1px 13px 0px;
+
+}
+#box{
+
+box-shadow: 0px 1px 13px 0px;
+
+}
+
